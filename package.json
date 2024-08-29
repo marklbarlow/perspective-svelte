@@ -35,9 +35,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@finos/perspective": "^2.10.1",
-		"@finos/perspective-viewer": "^2.10.1",
-		"@finos/perspective-viewer-datagrid": "^2.10.1",
+		"@finos/perspective": "^3.0.1",
+		"@finos/perspective-viewer": "^3.0.1",
+		"@finos/perspective-viewer-datagrid": "^3.0.1",
 		"superstore-arrow": "^3.0.0"
 	}
 }

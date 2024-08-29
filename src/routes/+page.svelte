@@ -6,7 +6,7 @@
 	import arrow from 'superstore-arrow/superstore.lz4.arrow';
 
 	async function initialise() {
-		const worker = perspective.worker();
+		const worker = await perspective.worker();
 		const viewer = document.querySelector('perspective-viewer');
 		const resp = await fetch(arrow);
 		const buffer = await resp.arrayBuffer();
