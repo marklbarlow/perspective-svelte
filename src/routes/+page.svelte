@@ -1,8 +1,9 @@
 <script lang="ts">
-	import perspective from '@finos/perspective';
-	import '@finos/perspective-viewer';
+	import perspective from '@finos/perspective/dist/esm/perspective.inline';
+
 	import '@finos/perspective-viewer-datagrid';
 	import '@finos/perspective-viewer/dist/css/pro.css';
+	import '@finos/perspective-viewer/dist/esm/perspective-viewer.inline';
 	import arrow from 'superstore-arrow/superstore.lz4.arrow';
 
 	async function initialise() {
