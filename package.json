@@ -39,5 +39,8 @@
 		"@finos/perspective-viewer": "^3.0.1",
 		"@finos/perspective-viewer-datagrid": "^3.0.1",
 		"superstore-arrow": "^3.0.0"
+	},
+	"overrides": {
+		"vite": "^6.0.7"
 	}
 }

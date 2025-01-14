@@ -3,6 +3,9 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
 	assetsInclude: ['**/*.arrow'],
+	build: {
+		target: 'esnext'
+	},
 	optimizeDeps: { esbuildOptions: { target: 'esnext' } },
 	plugins: [sveltekit()],
 	test: {
